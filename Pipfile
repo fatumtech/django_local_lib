@@ -10,6 +10,7 @@ tensorflow = "*"
 sklearn = "*"
 pandas = "*"
 whitenoise = "*"
+dj-database-url = "*"
 
 [dev-packages]
 

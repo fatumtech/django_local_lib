@@ -1,3 +1,4 @@
+psycopg2-binary==2.8.6
 absl-py==0.13.0
 asgiref==3.4.1
 astunparse==1.6.3
