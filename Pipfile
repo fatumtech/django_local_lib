@@ -9,6 +9,7 @@ keras = "*"
 tensorflow = "*"
 sklearn = "*"
 pandas = "*"
+whitenoise = "*"
 
 [dev-packages]
 
