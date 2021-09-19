@@ -14,12 +14,12 @@ from pathlib import Path
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-CSRF_COOKIE_SECURE=True
-SECURE_HSTS_SECONDS=True
-SECURE_HSTS_INCLUDE_SUBDOMAINS=True
-SECURE_SSL_REDIRECT=True
-SECURE_HSTS_PRELOAD=True
-SESSION_COOKIE_SECURE=True
+# CSRF_COOKIE_SECURE=True
+# SECURE_HSTS_SECONDS=True
+# SECURE_HSTS_INCLUDE_SUBDOMAINS=True
+# SECURE_SSL_REDIRECT=True
+# SECURE_HSTS_PRELOAD=True
+# SESSION_COOKIE_SECURE=True
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -27,7 +27,7 @@ SESSION_COOKIE_SECURE=True
 SECRET_KEY = 'django-insecure-ye--n_-6xa83oea5x9v7mf70kz%+gr265$i_&m-#3je9l^=-z4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
